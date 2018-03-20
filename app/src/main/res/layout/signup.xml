@@ -1,0 +1,92 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/constraintLayout"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@color/colorPrimaryDark"
+        android:id="@+id/ib1"/>
+
+
+    <EditText
+        android:id="@+id/suet1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name.."
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName"
+        android:background="@drawable/input_background"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/suet2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Roll.."
+        android:background="@drawable/input_background"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/suet3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/input_background"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="date"
+        android:padding="10dp"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/sub1"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="#0420f7"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:background="@drawable/signup_buttton"
+        android:layout_height="wrap_content"
+        android:text="sign up" />
+    <EditText
+        android:id="@+id/suet4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:hint="Roll"
+        android:background="@drawable/input_background"/>
+    <Button
+        android:id="@+id/sub2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="DELETE"
+        android:background="@drawable/delete_button"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:id="@+id/sutv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="15dp"
+        android:text="when a student is not anymore your student"
+        android:gravity="center"/>
+
+</LinearLayout>
